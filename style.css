@@ -1,0 +1,184 @@
+*{
+    margin-left: 0px;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+     overflow: hidden; 
+     background: url('https://media.istockphoto.com/photos/blur-school-library-or-office-lobby-waiting-area-for-educational-picture-id1071914882?k=20&m=1071914882&s=612x612&w=0&h=G8gS8cRnZB5UoWYlm9_5PsOYMUmxoRI_5NFmM0s8Zjw=') no-repeat center center fixed;
+     background-size: cover;
+}
+
+.box-form {
+    margin: 10vh auto;
+    width: 45vw;
+    background: transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    box-shadow: 0 0 30px 10px black;
+    /* height: 75vh; */
+    color: black;
+    
+}
+
+.box-form div {
+  height: auto;
+}
+
+.box-form .right {
+    padding-left: 4vw;
+    overflow: hidden;
+    width: 50vw;
+    /* height: 100vh; */
+    padding-right: 4vw;
+    padding-top: 3vh;
+}
+
+.box-form .right h5 {
+    font-size: 2vmax;
+    line-height: 0;
+	text-align: center;
+    padding-top: 3vh;
+}
+.box-form .right p {
+    font-size: 2vh;
+    color:black;
+    text-align: center;
+}
+.box-form .right .inputs {
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+}
+.box-form .right .inputs1 {
+    overflow: hidden;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+  }
+ 
+.box-form .right input {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  border: none;
+  outline: none;
+}
+
+.box-form .right .remember-me--forget-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.box-form .right .remember-me--forget-password input {
+  margin: 0;
+  margin-right: 7px;
+  width: auto;
+}
+label {
+  display: block;
+  position: relative;
+  margin-left: 30px;
+}
+
+label span.text-checkbox {
+  display: inline-block;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.9s linear;
+}
+
+label input[type="checkbox"] {
+  display: none;
+}
+.box-form .right button {
+    color: black;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #050608a6;
+    background-color: orange;
+}
+.sidebar{
+    display:inline;
+    position: absolute;
+    height: 100vh;
+    width:5vw;
+    min-width: 55px;
+    background-color: black;
+    transition:width 0.5s ease-in-out;
+    left: 0;
+    
+}
+.sidebar:hover{
+    width:10vw;
+}
+.container{
+    display: flex;
+    
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+input[type="checkbox"]{
+    display: inline !important;
+
+}
+.inputs{
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+@media only screen and (max-width: 700px){
+  .container-fluid{
+      flex-direction: column;
+  }
+  .navbar-nav{
+      flex-direction: column;
+  }
+}
+::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+  .pro1{
+    list-style: none;
+    margin-block: 0;
+    padding: 0;
+}
+.hide{
+    display: none;
+}
+.sidebar:hover .hide{
+    display: block;
+    color: orange;
+    font-size: large;
+}
+svg:hover::after{
+    content: 'profile';
+}
+.pro{
+    padding: 10px;
+}
+.container-fluid a{
+    color: white;
+}
+.container-fluid a:hover{
+  color: orange;
+  /* background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 7 */
+}
+.hide a{
+  text-decoration: none;
+  color: orange;
+}
